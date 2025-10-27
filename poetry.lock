@@ -598,13 +598,13 @@ all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2
 
 [[package]]
 name = "ipykernel"
-version = "7.0.1"
+version = "7.1.0"
 description = "IPython Kernel for Jupyter"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "ipykernel-7.0.1-py3-none-any.whl", hash = "sha256:87182a8305e28954b6721087dec45b171712610111d494c17bb607befa1c4000"},
-    {file = "ipykernel-7.0.1.tar.gz", hash = "sha256:2d3fd7cdef22071c2abbad78f142b743228c5d59cd470d034871ae0ac359533c"},
+    {file = "ipykernel-7.1.0-py3-none-any.whl", hash = "sha256:763b5ec6c5b7776f6a8d7ce09b267693b4e5ce75cb50ae696aaefb3c85e1ea4c"},
+    {file = "ipykernel-7.1.0.tar.gz", hash = "sha256:58a3fc88533d5930c3546dc7eac66c6d288acde4f801e2001e65edc5dc9cf0db"},
 ]
 
 [package.dependencies]
@@ -2217,8 +2217,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10.11"
-<<<<<<< HEAD
-content-hash = "1b556d86491f7c211840bb25b7704095dece1fcdeb341160573bb75c2222fbb7"
-=======
-content-hash = "dfc2556b5643ed828834339f1b36cb4f07d117c3708a6a4cbf90c0852747d4b8"
->>>>>>> main
+content-hash = "830d7b5b925e26686ee7ef97013b02501edc4813a23ce503a7ed87df937ced36"
